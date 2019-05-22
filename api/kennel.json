@@ -1,34 +1,50 @@
 {
-    "employees": [
-        {
-            "id": 1,
-            "name": "Jessica Younker"
-        },
-        {
-            "id": 2,
-            "name": "Jordan Nelson"
-        },
-        {
-            "id": 3,
-            "name": "Zoe LeBlanc"
-        },
-        {
-            "id": 4,
-            "name": "Blaise Roberts"
-        }
-    ],
-    "animals": [
-        {
-            "id": 1,
-            "name": "Esme"
-        },
-        {
-            "id": 2,
-            "name": "Pepper"
-        },
-        {
-            "id": 3,
-            "name": "Luka"
-        }
-    ]
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jessica Younker"
+    },
+    {
+      "id": 2,
+      "name": "Jordan Nelson"
+    },
+    {
+      "id": 3,
+      "name": "Zoe LeBlanc"
+    },
+    {
+      "id": 4,
+      "name": "Blaise Roberts"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Esme"
+    },
+    {
+      "name": "kitty",
+      "breed": "cat",
+      "employeeId": 1,
+      "id": 2
+    },
+    {
+      "name": "Heron",
+      "breed": "Bird",
+      "employeeId": 3,
+      "id": 3
+    },
+    {
+      "name": "Chip",
+      "breed": "rodent",
+      "employeeId": 2,
+      "id": 4
+    },
+    {
+      "name": "Blue-y",
+      "breed": "Firefly",
+      "employeeId": 3,
+      "id": 5
+    }
+  ]
 }

@@ -1,12 +1,22 @@
 import React, {Component}from 'react';
 import AnimalItem from './AnimalItem';
 
-
 export default class AnimalList extends Component {
 
     render() {
         return (
             <section>
+                <div className="animalButton">
+                    <button type="button"
+                        className="btn btn-success"
+                        onClick={() => {
+                            this.props.history.push("/animals/new")
+                        }
+                        }>
+                        Admit Animal
+                    </button>
+                </div>
+
                 <h2>All Animals</h2>
                 {
                     this.props.animals.map((item) => {

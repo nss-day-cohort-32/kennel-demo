@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class AnimalItem extends Component {
 
@@ -19,7 +20,7 @@ class AnimalItem extends Component {
             <article>
                 <h3>{this.props.animal.name}</h3>
                 <button onClick={this.handleClick} disabled={this.state.saveDisabled}>Delete</button>
-                {/*<button onClick={}>Details</button>*/}
+                <Link to={`/animals/${this.props.animal.id}`}>Details</Link>
             </article>
         )
     }
