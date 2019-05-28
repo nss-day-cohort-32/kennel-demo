@@ -4,6 +4,7 @@ import AnimalItem from './AnimalItem';
 export default class AnimalList extends Component {
 
     render() {
+        console.log("ANIMAL LIST Render");
         return (
             <section>
                 <div className="animalButton">
@@ -20,7 +21,7 @@ export default class AnimalList extends Component {
                 <h2>All Animals</h2>
                 {
                     this.props.animals.map((item) => {
-                        return <AnimalItem key={item.id} animal={item}
+                        return <AnimalItem key={item.id} animal={item} {...this.props}
                             deleteAnimal={this.props.deleteAnimal} />
                     })
                 }

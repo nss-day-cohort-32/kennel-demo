@@ -21,6 +21,12 @@ class AnimalItem extends Component {
                 <h3>{this.props.animal.name}</h3>
                 <button onClick={this.handleClick} disabled={this.state.saveDisabled}>Delete</button>
                 <Link to={`/animals/${this.props.animal.id}`}>Details</Link>
+                <button
+                    type="button"
+                    className="btn btn-success"
+                    onClick={() => {
+                        this.props.history.push(`/animals/${this.props.animal.id}/edit`);
+                    }}>Edit</button>
             </article>
         )
     }

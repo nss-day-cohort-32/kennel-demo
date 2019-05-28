@@ -13,10 +13,10 @@ export default class Animal extends Component {
             <section className="animal">
                 <div key={this.props.animal.id} className="card">
                     <div className="card-body">
-                        <h4 className="card-title">
+                        <div className="card-title">
                             <img src={dog} className="icon--dog" />
-                            {this.props.animal.name}
-                        </h4>
+                            <h4>{this.props.animal.name}</h4>
+                        </div>
                         <button onClick={
                             () => {
                                 this.setState(

@@ -20,13 +20,15 @@
   "animals": [
     {
       "id": 1,
-      "name": "Esme"
+      "name": "Esme",
+      "breed": "pitbull sdsdsdasd",
+      "employeeId": 1
     },
     {
+      "id": 2,
       "name": "kitty",
-      "breed": "cat",
-      "employeeId": 1,
-      "id": 2
+      "breed": "kitten",
+      "employeeId": 1
     },
     {
       "name": "Heron",
@@ -41,10 +43,16 @@
       "id": 4
     },
     {
+      "id": 5,
       "name": "Blue-y",
-      "breed": "Firefly",
+      "breed": "Firefly Bug",
+      "employeeId": 3
+    },
+    {
+      "name": "Big",
+      "breed": "Bird",
       "employeeId": 3,
-      "id": 5
+      "id": 6
     }
   ]
 }
